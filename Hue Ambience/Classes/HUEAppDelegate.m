@@ -7,15 +7,27 @@
 //
 
 #import "HUEAppDelegate.h"
+#import "HUERootViewController.h"
+
+
+@interface HUEAppDelegate ()
+
+@property (strong, nonatomic) HUERootViewController *rootViewController;
+
+@end
+
 
 @implementation HUEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	self.rootViewController = [[HUERootViewController alloc] initWithNibName:nil bundle:nil];
+	
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+	self.window.rootViewController = self.rootViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+	
     return YES;
 }
 

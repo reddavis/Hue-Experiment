@@ -12,13 +12,28 @@
 		A470C81618760A79004F7419 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470C81518760A79004F7419 /* UIKit.framework */; };
 		A470C81C18760A79004F7419 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A470C81A18760A79004F7419 /* InfoPlist.strings */; };
 		A470C81E18760A79004F7419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C81D18760A79004F7419 /* main.m */; };
-		A470C82218760A79004F7419 /* HUEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C82118760A79004F7419 /* HUEAppDelegate.m */; };
 		A470C82418760A79004F7419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A470C82318760A79004F7419 /* Images.xcassets */; };
 		A470C82B18760A79004F7419 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470C82A18760A79004F7419 /* XCTest.framework */; };
 		A470C82C18760A79004F7419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470C81118760A79004F7419 /* Foundation.framework */; };
 		A470C82D18760A79004F7419 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470C81518760A79004F7419 /* UIKit.framework */; };
 		A470C83518760A79004F7419 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A470C83318760A79004F7419 /* InfoPlist.strings */; };
 		A470C83718760A79004F7419 /* Hue_AmbienceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C83618760A79004F7419 /* Hue_AmbienceTests.m */; };
+		A470C86718760B10004F7419 /* HUEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C84318760B10004F7419 /* HUEAppDelegate.m */; };
+		A470C87A18760B70004F7419 /* HUERootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C87918760B70004F7419 /* HUERootViewController.m */; };
+		A470C87F18760C76004F7419 /* HUEHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C87E18760C76004F7419 /* HUEHomeViewController.m */; };
+		A470C8BE18761516004F7419 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8B018761516004F7419 /* DDAbstractDatabaseLogger.m */; };
+		A470C8BF18761516004F7419 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8B218761516004F7419 /* DDASLLogger.m */; };
+		A470C8C018761516004F7419 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8B418761516004F7419 /* DDFileLogger.m */; };
+		A470C8C118761516004F7419 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8B618761516004F7419 /* DDLog.m */; };
+		A470C8C218761516004F7419 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8B818761516004F7419 /* DDTTYLogger.m */; };
+		A470C8C318761516004F7419 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8BB18761516004F7419 /* ContextFilterLogFormatter.m */; };
+		A470C8C418761516004F7419 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8BD18761516004F7419 /* DispatchQueueLogFormatter.m */; };
+		A470C8CA187619F3004F7419 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8C9187619F3004F7419 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A470C8D318781C21004F7419 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A470C8D018781C21004F7419 /* SVProgressHUD.bundle */; };
+		A470C8D418781C21004F7419 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8D218781C21004F7419 /* SVProgressHUD.m */; };
+		A470C8D618782C0F004F7419 /* HueSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470C8D518782C0F004F7419 /* HueSDK.framework */; };
+		A470C8DA18783472004F7419 /* HUEAverageColorCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A470C8D918783472004F7419 /* HUEAverageColorCalculator.m */; };
+		A470C8DC18783505004F7419 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470C8DB18783505004F7419 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +55,42 @@
 		A470C81B18760A79004F7419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A470C81D18760A79004F7419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A470C81F18760A79004F7419 /* Hue Ambience-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hue Ambience-Prefix.pch"; sourceTree = "<group>"; };
-		A470C82018760A79004F7419 /* HUEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUEAppDelegate.h; sourceTree = "<group>"; };
-		A470C82118760A79004F7419 /* HUEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUEAppDelegate.m; sourceTree = "<group>"; };
 		A470C82318760A79004F7419 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A470C82918760A79004F7419 /* Hue AmbienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hue AmbienceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A470C82A18760A79004F7419 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A470C83218760A79004F7419 /* Hue AmbienceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hue AmbienceTests-Info.plist"; sourceTree = "<group>"; };
 		A470C83418760A79004F7419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A470C83618760A79004F7419 /* Hue_AmbienceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hue_AmbienceTests.m; sourceTree = "<group>"; };
+		A470C84218760B10004F7419 /* HUEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUEAppDelegate.h; sourceTree = "<group>"; };
+		A470C84318760B10004F7419 /* HUEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUEAppDelegate.m; sourceTree = "<group>"; };
+		A470C87818760B70004F7419 /* HUERootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUERootViewController.h; sourceTree = "<group>"; };
+		A470C87918760B70004F7419 /* HUERootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUERootViewController.m; sourceTree = "<group>"; };
+		A470C87D18760C76004F7419 /* HUEHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUEHomeViewController.h; sourceTree = "<group>"; };
+		A470C87E18760C76004F7419 /* HUEHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUEHomeViewController.m; sourceTree = "<group>"; };
+		A470C8AF18761516004F7419 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		A470C8B018761516004F7419 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		A470C8B118761516004F7419 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		A470C8B218761516004F7419 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		A470C8B318761516004F7419 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		A470C8B418761516004F7419 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		A470C8B518761516004F7419 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		A470C8B618761516004F7419 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		A470C8B718761516004F7419 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		A470C8B818761516004F7419 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		A470C8BA18761516004F7419 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		A470C8BB18761516004F7419 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		A470C8BC18761516004F7419 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		A470C8BD18761516004F7419 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		A470C8C8187619F3004F7419 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		A470C8C9187619F3004F7419 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		A470C8CF18781C21004F7419 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		A470C8D018781C21004F7419 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		A470C8D118781C21004F7419 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		A470C8D218781C21004F7419 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		A470C8D518782C0F004F7419 /* HueSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HueSDK.framework; sourceTree = "<group>"; };
+		A470C8D818783472004F7419 /* HUEAverageColorCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUEAverageColorCalculator.h; sourceTree = "<group>"; };
+		A470C8D918783472004F7419 /* HUEAverageColorCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUEAverageColorCalculator.m; sourceTree = "<group>"; };
+		A470C8DB18783505004F7419 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A470C8DC18783505004F7419 /* AVFoundation.framework in Frameworks */,
+				A470C8D618782C0F004F7419 /* HueSDK.framework in Frameworks */,
 				A470C81418760A79004F7419 /* CoreGraphics.framework in Frameworks */,
 				A470C81618760A79004F7419 /* UIKit.framework in Frameworks */,
 				A470C81218760A79004F7419 /* Foundation.framework in Frameworks */,
@@ -96,6 +141,7 @@
 		A470C81018760A79004F7419 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A470C8DB18783505004F7419 /* AVFoundation.framework */,
 				A470C81118760A79004F7419 /* Foundation.framework */,
 				A470C81318760A79004F7419 /* CoreGraphics.framework */,
 				A470C81518760A79004F7419 /* UIKit.framework */,
@@ -107,8 +153,9 @@
 		A470C81718760A79004F7419 /* Hue Ambience */ = {
 			isa = PBXGroup;
 			children = (
-				A470C82018760A79004F7419 /* HUEAppDelegate.h */,
-				A470C82118760A79004F7419 /* HUEAppDelegate.m */,
+				A470C84118760B10004F7419 /* Classes */,
+				A470C84018760B10004F7419 /* Categories */,
+				A470C84418760B10004F7419 /* Libaries */,
 				A470C82318760A79004F7419 /* Images.xcassets */,
 				A470C81818760A79004F7419 /* Supporting Files */,
 			);
@@ -142,6 +189,120 @@
 				A470C83318760A79004F7419 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A470C84018760B10004F7419 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A470C84118760B10004F7419 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A470C84218760B10004F7419 /* HUEAppDelegate.h */,
+				A470C84318760B10004F7419 /* HUEAppDelegate.m */,
+				A470C87718760B5E004F7419 /* View Controllers */,
+				A470C8D718783453004F7419 /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A470C84418760B10004F7419 /* Libaries */ = {
+			isa = PBXGroup;
+			children = (
+				A470C8D518782C0F004F7419 /* HueSDK.framework */,
+				A470C8CE18781C21004F7419 /* SVProgressHUD */,
+				A470C8C7187619F3004F7419 /* JSONKit */,
+				A470C8AE18761516004F7419 /* Lumberjack */,
+			);
+			path = Libaries;
+			sourceTree = "<group>";
+		};
+		A470C87718760B5E004F7419 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A470C87818760B70004F7419 /* HUERootViewController.h */,
+				A470C87918760B70004F7419 /* HUERootViewController.m */,
+				A470C87B18760C61004F7419 /* ----------------- */,
+				A470C87C18760C69004F7419 /* Home */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A470C87B18760C61004F7419 /* ----------------- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "-----------------";
+			sourceTree = "<group>";
+		};
+		A470C87C18760C69004F7419 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A470C87D18760C76004F7419 /* HUEHomeViewController.h */,
+				A470C87E18760C76004F7419 /* HUEHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A470C8AE18761516004F7419 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				A470C8AF18761516004F7419 /* DDAbstractDatabaseLogger.h */,
+				A470C8B018761516004F7419 /* DDAbstractDatabaseLogger.m */,
+				A470C8B118761516004F7419 /* DDASLLogger.h */,
+				A470C8B218761516004F7419 /* DDASLLogger.m */,
+				A470C8B318761516004F7419 /* DDFileLogger.h */,
+				A470C8B418761516004F7419 /* DDFileLogger.m */,
+				A470C8B518761516004F7419 /* DDLog.h */,
+				A470C8B618761516004F7419 /* DDLog.m */,
+				A470C8B718761516004F7419 /* DDTTYLogger.h */,
+				A470C8B818761516004F7419 /* DDTTYLogger.m */,
+				A470C8B918761516004F7419 /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		A470C8B918761516004F7419 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A470C8BA18761516004F7419 /* ContextFilterLogFormatter.h */,
+				A470C8BB18761516004F7419 /* ContextFilterLogFormatter.m */,
+				A470C8BC18761516004F7419 /* DispatchQueueLogFormatter.h */,
+				A470C8BD18761516004F7419 /* DispatchQueueLogFormatter.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A470C8C7187619F3004F7419 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				A470C8C8187619F3004F7419 /* JSONKit.h */,
+				A470C8C9187619F3004F7419 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		A470C8CE18781C21004F7419 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A470C8CF18781C21004F7419 /* SVProgressHUD-Prefix.pch */,
+				A470C8D018781C21004F7419 /* SVProgressHUD.bundle */,
+				A470C8D118781C21004F7419 /* SVProgressHUD.h */,
+				A470C8D218781C21004F7419 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		A470C8D718783453004F7419 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A470C8D818783472004F7419 /* HUEAverageColorCalculator.h */,
+				A470C8D918783472004F7419 /* HUEAverageColorCalculator.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A470C81C18760A79004F7419 /* InfoPlist.strings in Resources */,
+				A470C8D318781C21004F7419 /* SVProgressHUD.bundle in Resources */,
 				A470C82418760A79004F7419 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +403,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A470C81E18760A79004F7419 /* main.m in Sources */,
-				A470C82218760A79004F7419 /* HUEAppDelegate.m in Sources */,
+				A470C8C018761516004F7419 /* DDFileLogger.m in Sources */,
+				A470C8DA18783472004F7419 /* HUEAverageColorCalculator.m in Sources */,
+				A470C87A18760B70004F7419 /* HUERootViewController.m in Sources */,
+				A470C8BF18761516004F7419 /* DDASLLogger.m in Sources */,
+				A470C87F18760C76004F7419 /* HUEHomeViewController.m in Sources */,
+				A470C8C318761516004F7419 /* ContextFilterLogFormatter.m in Sources */,
+				A470C8C218761516004F7419 /* DDTTYLogger.m in Sources */,
+				A470C86718760B10004F7419 /* HUEAppDelegate.m in Sources */,
+				A470C8D418781C21004F7419 /* SVProgressHUD.m in Sources */,
+				A470C8C418761516004F7419 /* DispatchQueueLogFormatter.m in Sources */,
+				A470C8C118761516004F7419 /* DDLog.m in Sources */,
+				A470C8CA187619F3004F7419 /* JSONKit.m in Sources */,
+				A470C8BE18761516004F7419 /* DDAbstractDatabaseLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +532,13 @@
 		A470C83B18760A79004F7419 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/reddavis/Documents/Projects/Hue\\ Ambience/Hue\\ Ambience/Libaries",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hue Ambience/Hue Ambience-Prefix.pch";
 				INFOPLIST_FILE = "Hue Ambience/Hue Ambience-Info.plist";
@@ -371,8 +550,13 @@
 		A470C83C18760A79004F7419 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/reddavis/Documents/Projects/Hue\\ Ambience/Hue\\ Ambience/Libaries",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hue Ambience/Hue Ambience-Prefix.pch";
 				INFOPLIST_FILE = "Hue Ambience/Hue Ambience-Info.plist";
@@ -442,6 +626,7 @@
 				A470C83C18760A79004F7419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A470C83D18760A79004F7419 /* Build configuration list for PBXNativeTarget "Hue AmbienceTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +635,7 @@
 				A470C83F18760A79004F7419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
