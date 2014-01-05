@@ -30,7 +30,7 @@ What you don't see is someone pointing the iPhone at the TV. The iPhone then cal
 	- "My Settings"
 	- "My Bridge"
 	- "Show More"
-- Compile the onto your iPhone
+- Compile the app onto your iPhone
 - If all has worked, then it should ask you to push the button on your bridge
 - Lights **should** start changing
 
