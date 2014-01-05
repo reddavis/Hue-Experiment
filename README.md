@@ -19,6 +19,7 @@ What you don't see is someone pointing the iPhone at the TV. The iPhone then cal
 - Play around with FPS we capture the image.
 - Rather than looking at every pixel to calculate the average colour, try every nth pixel.
 - Just look at the bordering pixels, they should provide us with with enough information to get the ambient colour. However, this does require the iPhone to have the full screen in shot and not move too much.
+- Have a light on each side of the TV and change their colour depening on the ambient light for that side
 
 ## Getting Started
 
